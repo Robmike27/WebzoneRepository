@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.BGimg {
+    background: url('pexels-photo-976861.jpeg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: -2;
+}
+
+.overlay{
+    background: rgba(100, 20, 5, .5);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.main{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+}
+
+table{
+    margin: 0 auto;
+}
